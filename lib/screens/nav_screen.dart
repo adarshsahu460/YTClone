@@ -34,10 +34,8 @@ class _NavScreenState extends State<NavScreen> {
       body: Stack(
         // Here we reference our _screens list to the Stack
         children: _screens
-
             // Now convert this list of screens to a map of screens
             .asMap()
-
             // Now we will set the index for each map element map <int,Screen> type
             .map(
               // So here for each index, we are rendering the _screen[i] using a thisScreenVar variable

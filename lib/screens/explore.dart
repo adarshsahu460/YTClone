@@ -6,7 +6,7 @@ class ExploreScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(child: Text("This is the Explore 876543234567 Screen")),
+      body: Center(child: Text("This is the Explore Screen")),
     );
   }
 }
